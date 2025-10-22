@@ -1,0 +1,260 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TugasPemweb4</title>
+  <style>
+ body {
+     font-family: 'Segoe UI', Arial, sans-serif;
+     margin: 0;
+     background-color: #fcfeff;
+     color: #222;
+ }
+
+ /* HEADER */
+ header {
+     background-color: #355485;
+     color: white;
+     text-align: center;
+     padding: 20px 0;
+     margin-top: -20px;
+ }
+
+ header h1 {
+     margin: 0;
+     font-size: 28px;
+ }
+
+ /* NAV */
+ nav {
+     background-color: #4f90c6;
+     text-align: center;
+     padding: 10px 0;
+     margin-bottom:-20px;
+ }
+
+ nav a {
+     color: white;
+     text-decoration: none;
+     margin: 0 15px;
+     font-weight: bold;
+ }
+
+ nav a:hover {
+     text-decoration: underline;
+ }
+
+ /* LAYOUT */
+ .container {
+     width: 90%;
+     max-width: 1100px;
+     margin: 20px auto;
+     overflow: auto;
+ }
+
+ section {
+     float: left;
+     width: 68%;
+     background-color: white;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     padding: 16px;
+     box-sizing: border-box;
+ }
+
+ aside {
+     float: right;
+     width: 28%;
+     background-color: #cbdde9;
+     border: 1px solid #bbb;
+     border-radius: 8px;
+     padding: 16px;
+     box-sizing: border-box;
+ }
+
+ h2 {
+     color: #355485;
+     margin-top: 0;
+ }
+
+ article img {
+     width: 100%;
+     border-radius: 6px;
+     margin-bottom: 10px;
+ }
+
+ /* TABEL DATA */
+ table {
+     border-collapse: collapse;
+     width: 100%;
+     margin: 12px 0;
+ }
+
+ th,
+ td {
+     border: 1px solid #ccc;
+     padding: 8px;
+     text-align: left;
+ }
+
+ th {
+     background-color: #f1f5f9;
+ }
+
+ /* IFRAME */
+ iframe {
+     width: 100%;
+     height: 250px;
+     border: 1px solid #999;
+     border-radius: 6px;
+ }
+
+ /* FOOTER */
+ footer {
+     clear: both;
+     background-color: #355485;
+     color: white;
+     text-align: center;
+     padding: 14px 0;
+     margin-top: 20px;
+ }
+
+ footer a {
+     color: #cbdde9;
+     text-decoration: none;
+ }
+
+ footer a:hover {
+     text-decoration: underline;
+ }
+
+ /* RESPONSIVE SEDIKIT */
+ @media (max-width: 768px) {
+
+     section,
+     aside {
+         float: none;
+         width: 100%;
+     }
+ }
+
+ </style>
+  </style>
+</head>
+<body>
+  <header id="Kembali ke atas">
+    <h1>Portalnya Pika - Berita koding yang kece 🖥😎</h1>
+    <p>"Dimana bug bukan musuh, tapi guru kehidupan"</p>
+    <nav>
+      <a href="#Berita Utama">Berita Utama</a>
+      <a href="#Fakta Unik">Fakta Unik</a>
+      <a href="#Video & Iframe">Video & Iframe</a>
+      <a href="#Kontak Redaksi">Kontak Redaksi</a>
+    </nav>
+  </header>
+  
+  <main style="padding:20px">
+    <div id="Berita Utama">
+      <section id="Berita Utama">
+      <h2><strong>Ada seorang perempuan cantik bernama Vika tertangkap basah sedang ngoding jam 3 pagi demi push ke Github</strong></h2>
+  <img src="https://exampllee.vercel.app/assets/G07.gif" style="border-radius: 20px"; height="200px": width="300px;">
+  <p><strong>Depok, Portal Pika</strong> - Warga Depok dikejutkan dengan suara ketikan  keyboard yang tak kunjung berhenti. Setelah diselidiki, ternyata sumber suara berasal dari kamar perempuan cantik bernama Vika, yang sedang men-deploy projectnya ke vercel.</p>
+  <p>"Aku cuma mau mastiin web nya responsif sebelum tidur." ujar perempuan cantik itu sembari meminum es kopi caramel machiato yang udah cair dari jam 10 malam.</p>
+  <p>Menurut pengakuan saksi, Vika sudah tiga malam tidak tidur gara-gara memperbaiki eror <code>vite-plugin-pwa missing.</code> Namun, akhirnya project berhasil jalan dan langsung mendapat 5 ⭐ di Github dari teman satu kost nya</p>
+  <h3 style="color: black">Fakta koding Vika:</h3>
+  <ul>
+    <li>Suka debugging sambil dengerin lagu Bruno Mars</li>
+    <li>Pernah typo <em>console.log</em> jadi <em>consola.lag</em></li>
+    <li>Setiap error dianggap "ujian cinta terhadap syntax"</li>
+  </ul>
+  <h3>Top 3 error paling sering ditemui:</h3>
+  <ol>
+    <li>Missing semicolon (;) setelah jam 2 pagi</li>
+    <li>Path image ga kebaca di deploy</li>
+    <li>"Cannot read property 'undefined' of undefined" - klasik!</li>
+  </ol>
+  <h3> Daftar Konsumsi Lembur Vika</h3>
+<table border="1">
+  <tr>
+    <th>No</th>
+    <th>Menu</th>
+    <th>Jam Konsumsi</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>1</td>
+     <td>Caramel Machiato</td>
+     <td>22.00</td>
+     <td>Habis</td>
+  </tr>
+  <tr>
+    <td>2</td>  
+    <td>Mie Goreng Rendang</td>
+    <td>01.00</td>
+    <td>Pending (Kegigit error)</td>
+  <tr/>
+  <tr>
+    <td>3</td>
+    <td>Roti Sobek</td>
+    <td>02.00</td>
+    <td>Belum disentuh</td>
+  </tr>
+</table>
+<!---Motto--->
+<div>
+  <p>Dan inilah motto hidupnya:</p>
+  <blockquote style="border-left: #355485 solid 5px; background-color: #4884b527;">
+  <div style="padding: 5px">
+    "Kalau koding gagal, bukan berarti kamu gagal. Mungkin cuma belum disave aja."
+  </div>
+  </blockquote>
+  <div style="color: blue">
+  <h2>Belajar HTML langsung dari sumbernya</h2></div>
+  <div id="Video & Iframe">
+  <p>Berikut cuplikan referensi situs belajar favorit Vika:</p>
+  <iframe class="Frame"src="https://www.petanikode.com/" tittle="Contoh Iframe"></iframe>
+  </div>
+</div>
+</section>
+<div id="Fakta Unik">
+<section style="background-color: #D6E4F0; padding: 20px"></style>
+  <h2 style="color: #1879ad">Fakta Unik Tentang Vika</h2>
+  <ul>
+    <li>Ngoding pakai mode gelap bahkan di siang bolong</li>
+    <li>Punya 7 repository bernama <i>final-final-v3</i></li>
+    <li>Pernah rename folder jadi "fix-beneran-terakhir"</li>
+  </ul>
+  <h3>Jadwal Kegiatan Harian</h3>
+  <table>
+  <tr>
+  <th>Waktu</th>
+  <th>Kegiatan</th>
+  </tr>
+  <tr>
+    <td>09.00</td>
+    <td>Kelas Pemrograman Web</td>
+  </tr>
+  <tr>
+    <td>13.00</td>
+    <td>Ngopi sambil baca dokumentasi</td>
+  </tr>
+  <tr>
+    <td>21.00</td>
+    <td>Debug sampai lupa waktu</td>
+  </tr>
+  </table>
+  </section>
+</div>
+</div>
+</main>
+</head>
+</body>
+<footer id="Kontak Redaksi">
+  Hubungi redaksi:<a href="mailto:vikareva@gmail.com"> vikareva@gmail.com</a>
+  <br>
+<p><a href="kembali keatas">⬆️ Kembali ke atas</a></p>
+ <p> &copy 2025 Portal Vika - Semua bug milik bersama 🤡</p>
+</footer>
+</html>
